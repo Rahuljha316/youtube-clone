@@ -1,7 +1,12 @@
 const SideBar = () =>{
     return (
         <div>
-            SideBar
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
         </div>
     )
 }
