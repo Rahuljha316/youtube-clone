@@ -1,9 +1,13 @@
 import MainContainer from "./MainContainer"
 import SideBar from "./SideBar"
+import { useSelector } from "react-redux"
+
 
 const Body = () =>{
+    
+
     return (
-        <div>
+        <div className="flex">
             <SideBar />
             <MainContainer />
         </div>
