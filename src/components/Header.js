@@ -1,5 +1,6 @@
 import Menu from "../assets/img/hamburger.png";
-import Logo from "../assets/img/Youtubelogo.png";
+import Logo from "../assets/img/youtube.png";
+import ProfileLogo from '../assets/img/profile.jpg'
 import { CiSearch } from "react-icons/ci";
 import { MdOutlineAccountCircle } from "react-icons/md";
 import { useDispatch } from "react-redux";
@@ -31,8 +32,11 @@ const Header = () => {
           <CiSearch />
         </button>
       </div>
-      <div className="h-10">
-        <MdOutlineAccountCircle />
+      <div >
+
+      <img className="h-14 " alt="logo" src={ProfileLogo} />
+
+        
       </div>
     </div>
   );

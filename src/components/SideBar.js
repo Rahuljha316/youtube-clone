@@ -7,7 +7,7 @@ const SideBar = () => {
   if(!isMenuOpen) return null;
 
   return (
-    <div className="shadow-lg">
+    <div className="shadow-lg basis-1/5">
       <div className="font-bold">Home</div>
       <div className="font-bold">
         Library
