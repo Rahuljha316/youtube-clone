@@ -2,7 +2,6 @@ import Menu from "../assets/img/hamburger.png";
 import Logo from "../assets/img/youtube.png";
 import ProfileLogo from '../assets/img/profile.jpg'
 import { CiSearch } from "react-icons/ci";
-import { MdOutlineAccountCircle } from "react-icons/md";
 import { useDispatch } from "react-redux";
 import { toggleMenu } from "../utils/menuSlice";
 
