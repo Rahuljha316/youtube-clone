@@ -8,9 +8,16 @@ const Body = () =>{
     
 
     return (
-        <div className="flex basis-2">
-            <SideBar />
-            <Outlet />
+        <div className="flex">
+            <div className="w-1/8">
+                <SideBar />
+
+            </div>
+            <div className="w-3/8">
+                <Outlet />
+
+            </div>
+            
         </div>
     )
 }

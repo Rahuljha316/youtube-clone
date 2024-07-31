@@ -8,7 +8,7 @@ const SideBar = () => {
   if(!isMenuOpen) return null;
 
   return (
-    <div className="shadow-lg basis-1/5">
+    <div className="px-8">
       <div className="font-bold"><Link to='/'>Home</Link></div>
       <div className="font-bold">
         Library
