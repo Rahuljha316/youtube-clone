@@ -14,7 +14,7 @@ const VideoContainer = () => {
   };
 
   useEffect(() => {
-    return () => getVideos();
+    getVideos();
   }, []);
 
   return (
