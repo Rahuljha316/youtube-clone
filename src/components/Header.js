@@ -12,28 +12,28 @@ const Header = () => {
   };
 
   return (
-    <div className="flex m-4 shadow-md">
+    <div className="flex m-4 h-8 shadow-md place-content-between">
       <div className="flex ">
         <img
-          className="h-14 px-2 py-3 cursor-pointer"
+          className="px-2 py-3 mx-4 cursor-pointer"
           alt="hamburger"
           src={Menu}
           onClick={() => handleMenuClick()}
         />
-        <img className="h-14 " alt="logo" src={Logo} />
+        <img className="h-6" alt="logo" src={Logo} />
       </div>
-      <div className="items-center px-48 ">
+      <div className=" flex items-center ">
         <input
           placeholder="Search"
-          className="bg-gray-100 h-10 w-96 rounded-l-full "
+          className="bg-gray-100 w-96 px-4 rounded-l-full "
         />
-        <button className="bg-gray-200 h-10 w-12 rounded-r-full  items-center">
+        <div className="bg-gray-200 w-12 h-6 rounded-r-full flex items-center px-3">
           <CiSearch />
-        </button>
+        </div>
       </div>
       <div >
 
-      <img className="h-14 " alt="logo" src={ProfileLogo} />
+      <img className="h-8" alt="logo" src={ProfileLogo} />
 
         
       </div>
